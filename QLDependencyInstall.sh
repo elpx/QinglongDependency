@@ -46,6 +46,19 @@ npm install -g npm png-js date-fns axios crypto-js ts-md5 tslib @types/node requ
 
 pnpm install -g js-base64 qrcode-terminal silly-datetime
 
+# JDPro
+#####################################
+pnpm install -g ds
+pnpm install -g request
+pnpm install -g moment
+pnpm install -g cheerio
+pnpm install -g https-proxy-agent
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ jieba
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ requests
+rm -rf /usr/local/pnpm-global/5/node_modules/.pnpm/canvas*
+rm -rf /root/.local/share/pnpm/global/5/.pnpm/canvas*
+#####################################
+
 pip3 install requests lxml
 
 cd /ql/data/scripts/ && apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && npm i && npm i -S ts-node typescript @types/node date-fns axios png-js canvas --build-from-source
